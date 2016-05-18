@@ -13,7 +13,7 @@ public class Main {
         //int b [] = new int[9];
 
 
-        int a = 22;
+        int a = 11;
         boolean isPrime = true;
         for(int i=2;i<a;i++){
             if(a%i == 0){
