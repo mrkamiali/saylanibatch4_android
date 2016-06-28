@@ -10,6 +10,7 @@ public class Main {
         student.rolNum = 12;
 
         University university = new University();
+
         university.addStudent1(student);
         university.addStudent2("AbdulAziz",21,51);
         System.out.println(university.s.name);
@@ -22,6 +23,7 @@ public class Main {
         university.addStudent3(student1);
         university.addStudent3(student2);
         university.addStudent3(student3);
+
         /*for(int i =0;i<university.students.length;i++){
             if (university.students[i] != null) {
                 System.out.println(university.students[i].name);
@@ -33,9 +35,15 @@ public class Main {
 //
 //        }
         university.displayStudentList();
+
         Student[] myStudents = university.getStudentList();
+
         university.students[0].name = "Hello World";
+
         System.out.println(university.students[0].name);
+
         System.out.println(myStudents[0].name);
+
     }
 }
+

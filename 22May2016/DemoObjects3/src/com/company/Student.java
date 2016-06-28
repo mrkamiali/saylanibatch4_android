@@ -7,12 +7,15 @@ public class Student {
     int age;
     int rollNum;
     String name;
+
     public String displayName(){
         return name;
     }
+
     public void setName(String n){
         name = n;
     }
+
     public int max(int a, int b){
         if(a>b){
             return a;

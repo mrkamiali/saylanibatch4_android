@@ -28,6 +28,7 @@ public class University {
     public void addStudent3(Student s){
         students[index++] = s;
     }
+
     public void displayStudentList(){
         for(int i =0;i<this.index;i++){
 
